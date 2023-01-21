@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCB18161297C342600460BD5 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB18160297C342600460BD5 /* RequestManager.swift */; };
+		CCB18163297C393400460BD5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB18162297C393400460BD5 /* Weather.swift */; };
 		CCC9DF23297BD1180048D52A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9DF22297BD1180048D52A /* AppDelegate.swift */; };
 		CCC9DF25297BD1180048D52A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9DF24297BD1180048D52A /* SceneDelegate.swift */; };
 		CCC9DF27297BD1180048D52A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9DF26297BD1180048D52A /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CCB18160297C342600460BD5 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		CCB18162297C393400460BD5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		CCC9DF1F297BD1180048D52A /* WorkWithApiWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkWithApiWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC9DF22297BD1180048D52A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC9DF24297BD1180048D52A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CCB1815F297C341000460BD5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CCB18160297C342600460BD5 /* RequestManager.swift */,
+				CCB18162297C393400460BD5 /* Weather.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		CCC9DF16297BD1180048D52A = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		CCC9DF21297BD1180048D52A /* WorkWithApiWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				CCB1815F297C341000460BD5 /* Data */,
 				CCC9DF22297BD1180048D52A /* AppDelegate.swift */,
 				CCC9DF24297BD1180048D52A /* SceneDelegate.swift */,
 				CCC9DF26297BD1180048D52A /* ViewController.swift */,
@@ -141,6 +155,8 @@
 				CCC9DF27297BD1180048D52A /* ViewController.swift in Sources */,
 				CCC9DF23297BD1180048D52A /* AppDelegate.swift in Sources */,
 				CCC9DF25297BD1180048D52A /* SceneDelegate.swift in Sources */,
+				CCB18161297C342600460BD5 /* RequestManager.swift in Sources */,
+				CCB18163297C393400460BD5 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +311,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +343,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
